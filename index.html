@@ -281,11 +281,13 @@
 
         /* Quiz Styles */
         .quiz-container {
-            background: linear-gradient(135deg, var(--make-orange), var(--make-purple));
+            background: var(--card-background);
             border-radius: 16px;
             padding: 2rem;
             margin: 2rem 0;
-            color: white;
+            color: var(--make-purple);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--make-orange);
         }
 
         .quiz-question {
@@ -316,7 +318,7 @@
 
         .quiz-option.selected {
             background: rgba(255, 255, 255, 0.3);
-            border-color: white;
+            border-color: rgb(41, 20, 151);
         }
 
         .quiz-option.correct {
